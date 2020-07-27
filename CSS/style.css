@@ -1,8 +1,110 @@
-body{
-background-image: url('../imagens/provavel.jpg');
-background-size: 90%;
-background-repeat: no-repeat;
-}
-#principal{
+*{
+    margin: 0 ;
+    padding: 0;
 
 }
+body{
+
+border-radius: 5px;
+background-image: url('../imagens/fullblack.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100%
+}
+#principal{
+    float: right;
+}
+h1{ 
+    font-family: 'Rowdies', cursiv;
+    font-size: 50px;
+    margin-top:50px;
+    color: rgba(255, 255, 255, 0.76);
+    text-shadow: 3px 5px 4px rgb(8, 59, 8);
+}
+p{
+    font-family: 'Rowdies', cursiv;
+    margin-top: 15px;
+    margin-bottom:15px;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 3px 5px 4px rgb(8, 59, 8);
+}
+form{
+   margin: 0 auto;
+   margin-top: 40px;
+}
+input[type=text] {
+    border: 1px solid rgb(8, 105, 8);
+    border-radius: 19px;
+    width: 90%;
+    padding: 16px 20px;
+    margin-bottom: 15px;;
+    background-color:black ;
+    text-align: center;
+    color: white;
+  }
+  input[type=email] {
+    border: 1px solid rgb(8, 105, 8);
+    border-radius: 19px;
+    width: 90%;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    background-color:black ;
+    text-align: center;
+    color: white;
+  }
+  input[type=password] {
+    border: 1px solid rgb(8, 105, 8);
+    border-radius: 19px;
+    width: 90%;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+  input[type=radio] {
+    border: 2px solid rgb(255, 255, 255)(255, 255, 255);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: rgb(17, 206, 48);
+
+    
+  }
+  input[type=submit]{
+    background-color: rgb(8, 59, 8);
+    border: 1px solid rgb(8, 59, 8);
+    border-radius: 19px;
+  color: white;
+  padding: 16px 44%;
+  text-decoration: none;
+  margin:0 auto;
+  cursor: pointer;
+}
+      
+  }
+  select {
+    border: 1px solid rgb(8, 59, 8);
+    border-radius: 19px;
+    width: 90%;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+  a{
+      color:  rgb(17, 206, 48);
+  }
+  label{
+    font-family: 'Rowdies', cursiv;
+    margin-top: 15px;
+    margin-bottom:15px;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 3px 5px 4px rgb(8, 59, 8);
+  }
+  textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid rgb(8, 59, 8);
+    border-radius: 19px;
+    outline: 0;
+} 
